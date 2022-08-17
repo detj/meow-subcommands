@@ -44,4 +44,4 @@ node index walk -f
 
 ## Issues
 
-If you have any question, feel free to open an issue.
+If you have any question, feel free to [open an issue](https://github.com/detj/meow-subcommands/issues).
