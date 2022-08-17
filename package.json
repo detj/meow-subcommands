@@ -1,0 +1,25 @@
+{
+  "name": "meow-subcommands",
+  "version": "1.0.0",
+  "description": "proof of concept implementing subcommands using meow",
+  "main": "index.js",
+  "type": "module",
+  "exports": {
+    "import": "./index.js",
+    "default": "./index.js"
+  },
+  "bin": {
+    "meow": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "Debjeet Biswas <debjeet12@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "meow": "^10.1.3"
+  }
+}
