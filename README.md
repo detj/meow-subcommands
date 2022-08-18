@@ -6,7 +6,7 @@ A simple proof-of-concept prototype demonstrating a way to implement subcommands
 
 ## Why?
 
-[meow](https://github.com/sindresorhus/meow) is nice and simple. You can use to quickly build CLI utilities for whatever that you wanna do. But, it doesn't support an extra layer of commands, or subcommands, for lack of a better term, natively. If you wish to design your interface like the Docker CLI or git CLI but with meow, then you might find this useful.
+[meow](https://github.com/sindresorhus/meow) is nice and simple. You can use it to quickly build CLI utilities for whatever that you wanna do. But, it doesn't support an extra layer of commands natively. If you wish to design your interface like the Docker CLI or git CLI but with meow, then you might find this useful.
 
 ```sh
 $ docker ps ...
