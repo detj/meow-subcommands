@@ -2,6 +2,7 @@ import meow from "meow";
 import walk from "./lib/walk.js";
 
 const options = {
+  importMeta: import.meta,
   flags: {
     slow: { type: "boolean", alias: "s" },
     fast: { type: "boolean", alias: "f" },
