@@ -26,10 +26,13 @@ const cli = meow(
   options
 );
 
-const command = cli.input[0];
-
-if ("walk" === command) {
-  await import("./cli-walk.js");
-} else if ("run" === command) {
-  await import("./cli-run.js");
+switch (cli.input[0]) {
+  case "walk":
+    await import("./cli-walk.js");
+    break;
+  case "run":
+    await import("./cli-run.js");
+    break;
+  default:
+    cli.showHelp(1);
 }
